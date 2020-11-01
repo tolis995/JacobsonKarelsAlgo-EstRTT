@@ -1,4 +1,4 @@
-package ask1th5;
+package RTT;
 
 public class Main1 {
 	
@@ -16,11 +16,9 @@ public class Main1 {
 		double timeout;
 		int c=0;
 		timeout=mi*estrtt+phi*deviation;
-		System.out.println(timeout);
-
+		
 		difference=samplertt-estrtt;
-		System.out.println(c+"-"+estrtt+"-"+timeout+"-"+difference);
-
+		
 		while (timeout>218)  {
 			c++;
 			k=(Math.abs(difference)-deviation);
